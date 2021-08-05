@@ -17,5 +17,7 @@ const authController = require("../controllers/auth.controller");
 
   router.get("/facebook", authController.register);
 
+  router.get("/googleOK")
+
 
 module.exports = router;

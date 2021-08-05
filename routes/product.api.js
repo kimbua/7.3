@@ -8,7 +8,6 @@ var router = express.Router();
  * @access Public
  */
 router.get("/", function (req, res, next) {
-  //localhost:3000/api/products
   res.send([{ productId: 0 }, { productId: 1 }, { productId: 2 }]);
 });
 
@@ -29,6 +28,7 @@ router.get("/", function (req, res, next) {
  * @description Create a new product
  * @access Admin required
  */
+
 
 /**
  * @route PUT api/products/:id
